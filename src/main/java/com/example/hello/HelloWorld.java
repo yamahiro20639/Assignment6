@@ -14,13 +14,13 @@ public class HelloWorld {
         Weapon weapon3 = new Weapon("ライトセーバー(赤)");
         Weapon weapon4 = new Weapon("ブラスター");
 
-        List<StarWars> character = List.of(
+        List<StarWars> characters = List.of(
                 new StarWars("ルーク", "反乱同盟軍", weapon1),
                 new StarWars("オビワン", "反乱同盟軍", weapon2),
                 new StarWars("レイア姫", "反乱同盟軍", weapon4),
                 new StarWars("ベイダー卿", "帝国軍", weapon3),
                 new StarWars("パルパティーン", "帝国軍", weapon3),
                 new StarWars("ターキン提督", "帝国軍", weapon4));
-        return character;
+        return characters;
     }
 }
